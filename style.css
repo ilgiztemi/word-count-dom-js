@@ -1,0 +1,35 @@
+.container {
+    margin: 40px auto;
+    border: 10px solid silver;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+.container #input {
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 40px;
+    border: 2px solid silver;
+}
+.container #btn {
+    font-weight: bold;
+    line-height:50px;
+    background-color: seashell;
+    padding: 0 20px;
+    border: 2px solid silver;
+    border-radius: 10px;
+} 
+.container #btn:hover {
+    color: rgb(95, 161, 123);
+}
+.container #output {
+    margin-top: 20px;
+    font-size: 30px;
+}
